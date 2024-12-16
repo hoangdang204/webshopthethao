@@ -1,0 +1,40 @@
+@model IEnumerable<Webbandothethao.Models.tblPayment>
+
+<div class="form-group">
+  <label for="paymentMethod">Chọn phương thức thanh toán:</label>
+  <select id="paymentMethod" name="payment.id" class="form-control">
+    <option value="1">Thanh toán khi nhận hàng (COD)</option>
+    <option value="2">Thanh toán trực tuyến</option>
+  </select>
+</div>
+<div id="qrCodeContainer" style="display: none; margin-top: 20px;">
+    <h4>Quét mã QR để thanh toán</h4>
+    <img id="qrCodeImage" src="" alt="QR Code" style="max-width: 300px; max-height: 300px;">
+</div>
+<script>
+    document.getElementById("paymentMethod").addEventListener("change", function () {
+        var selectedPayment = this.value;
+        var qrCodeContainer = document.getElementById("qrCodeContainer");
+        var qrCodeImage = document.getElementById("qrCodeImage");
+
+        if (selectedPayment === "2") {
+            // Hiển thị mã QR
+            fetch('/Cart/GetQRCode')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.qrCodeBase64) {
+                        qrCodeImage.src = data.qrCodeBase64;
+                        qrCodeContainer.style.display = "block";
+                    } else {
+                        alert("Không thể tạo mã QR. Vui lòng thử lại.");
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        } else {
+            // Ẩn mã QR nếu chọn phương thức khác
+            qrCodeContainer.style.display = "none";
+        }
+    });
+</script>
+
+

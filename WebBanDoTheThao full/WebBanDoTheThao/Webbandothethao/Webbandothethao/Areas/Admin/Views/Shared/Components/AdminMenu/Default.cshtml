@@ -1,0 +1,29 @@
+    @using Webbandothethao.Areas.Admin.Models
+    @model List<tblAdminMenu>
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+        <a href="https://localhost:7251/"><img class="app-brand-link" src="~/img/logo.png" style="width:50px; height:50px; align-items: center;"></a>
+            
+          </div>
+
+          <div class="menu-inner-shadow"></div>
+
+        <ul class="menu-inner py-1">
+            <!-- Dashboard -->
+            @foreach (var item in Model)
+            {
+                <li class="menu-item active)">
+                    <a href="/@item.Areas/@item.ControllerName/@item.ActionName" class="menu-link">
+                      <i class=''></i>
+
+                        <div data-i18n="Analytics">@item.MenuName</div>
+                    </a>
+                </li>
+            }
+
+            <!-- Layouts -->
+
+          </ul>
+          
+        </aside>
+

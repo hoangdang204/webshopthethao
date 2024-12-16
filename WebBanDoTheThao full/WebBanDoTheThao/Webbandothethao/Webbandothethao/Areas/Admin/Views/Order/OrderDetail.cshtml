@@ -1,0 +1,50 @@
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model Webbandothethao.Models.tblOrder
+
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="card">
+        <h2 class="card-header"
+            style=" display: flex;
+                  justify-content: center;
+                align-items: center;
+                color:blue">
+            Chi tiết đơn hàng
+        </h2>
+        <div class="card-body">
+            <div>
+                <h4>Thông tin đơn hàng</h4>
+                <p>Mã đơn hàng: @Model.id</p>
+                <p>Ngày tạo: @Model.createdAt.ToString("dd/MM/yyyy")</p>
+                <p>Tổng giá: @Model.totalPrice VNĐ</p>
+                <p>Trạng thái: @Model.status</p>
+            </div>
+
+            <div>
+                <h4>Chi tiết sản phẩm</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Giá</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var detail in Model.OrderDetails ?? new List<Webbandothethao.Models.tblOrderDetail>())
+                        {
+                            <tr>
+                                <td>@detail.Product?.name </td>
+                                <td>@detail.quantity</td>
+                                <td>@detail.price VNĐ</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        
+        </div>
+    </div>
+</div>

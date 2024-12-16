@@ -1,0 +1,167 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model IEnumerable<Webbandothethao.Models.tblCategory>
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="card">
+        <h2 class="card-header"
+            style=" display: flex;
+                  justify-content: center;
+                align-items: center;
+                color:blue">
+            Quản lí danh mục
+        </h2>
+        <div class="card-body">
+            <a href="/Admin/Category/Create" class="btn btn-primary">Thêm mới</a>
+            <div class="table-responsive text-nowrap">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên danh mục</th>
+                            <th>Chú thích</th>
+                            <th>Thời gian tạo</th>
+                            <th>Thời cập nhật</th>
+                            <th>Hiển thị</th>
+                            <th>chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            int currentPage = ViewBag.CurrentPage; // Trang hiện tại
+                            int pageSize = 3; // Kích thước trang, có thể thay đổi nếu cần
+                            int startIndex = (currentPage - 1) * pageSize; // Tính chỉ số bắt đầu
+
+                            foreach (var item in Model)
+                            {
+                                int i = ++startIndex; // Tăng chỉ số bắt đầu mỗi lần lặp
+                                <tr id="trow_@i">
+                                    <th>@i</th>
+                                    <td>@item.name</td>
+                                    <td>@item.description</td>
+                                    <td>@item.created_at</td>
+                                    <td>@item.updated_at</td>
+                                    <td>
+                                        <div class="form-check form-switch">
+                                            <input data-id="@item.id" class="form-check-input toggle-switch" type="checkbox" id="flexSwitchCheckChecked_@item.id" @(item.IsActive.HasValue && item.IsActive.Value ? "checked" : "")>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked_@item.id">
+                                                <!-- Label content goes here if needed -->
+                                            </label>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <a href="/Admin/Category/Edit/@item.id" class="btn btn-primary">Sửa</a>
+                                        <a href="" data-id="@item.id" class="btn btn-danger btnDelete">Xóa</a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">Không có dữ liệu.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="demo-inline-spacing">
+                    <!-- Basic Pagination -->
+                    <nav aria-label="Page navigation" style="">
+                        <ul class="pagination justify-content-center">
+                            <!-- Nút đầu tiên -->
+                            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Display", new { page = 1 })">
+                                    <i class="tf-icon bx bx-chevrons-left"></i>
+                                </a>
+                            </li>
+
+                            <!-- Nút trước -->
+                            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Display", new { page = ViewBag.CurrentPage - 1 })">
+                                    <i class="tf-icon bx bx-chevron-left"></i>
+                                </a>
+                            </li>
+
+                            <!-- Số trang -->
+                            @for (int pageIndex = 1; pageIndex <= ViewBag.TotalPages; pageIndex++)
+                            {
+                                <li class="page-item @(ViewBag.CurrentPage == pageIndex ? "active" : "")">
+                                    <a class="page-link" href="/Admin/Category/Display?page=@pageIndex">@pageIndex</a>
+                                </li>
+                            }
+
+                            <!-- Nút tiếp -->
+                            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Display", new { page = ViewBag.CurrentPage + 1 })">
+                                    <i class="tf-icon bx bx-chevron-right"></i>
+                                </a>
+                            </li>
+
+                            <!-- Nút cuối -->
+                            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("Display", new { page = ViewBag.TotalPages })">
+                                    <i class="tf-icon bx bx-chevrons-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/ Basic Pagination -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts2 {
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Attach a click event to elements with the class "btnDelete"
+            $('body').on('click', '.btnDelete', function () {
+                // Prevent the default behavior of the anchor
+                var id = $(this).data("id");
+                var conf = confirm("Bạn có muốn xóa bản ghi này ?");
+                if (conf === true) {
+
+                    // Make an AJAX request to your server to delete the record
+                    $.ajax({
+
+                        url: '/admin/Category/delete', // Replace with your actual URL
+                        type: 'POST', // Use POST or DELETE based on your server-side implementation
+                        data: { id: id },
+                        success: function (rs) {
+                            if (rs.success) {
+                                $('#trow_' + id).remove();
+                            }
+                        }
+
+                    });
+                }
+            });
+        });
+        $(document).ready(function () {
+            $('.toggle-switch').on('change', function () {
+                var id = $(this).data('id');
+                var isActive = $(this).prop('checked');
+
+                $.ajax({
+                    url: '/Admin/Category/UpdateIsShow', // Replace with your actual URL
+                    type: 'POST',
+                    data: { id: id, isActive: isActive },
+                    success: function (response) {
+                        if (response.success) {
+                            console.log('Update successful');
+                        } else {
+                            console.error('Update failed:', response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error updating IsActive:', error);
+                    }
+                });
+            });
+        });
+    </script>
+
+}
+

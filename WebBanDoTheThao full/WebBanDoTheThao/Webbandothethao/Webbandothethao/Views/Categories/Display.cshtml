@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Webbandothethao.Models.tblProduct>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+ }
+ <!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content d-md-flex justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0">
+                    <h2>Shop Category</h2>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class="page_link">
+                    <a href="http://localhost:5010/">Trang chủ</a>
+                    <a href="http://localhost:5010/Categories/Display">Cửa hàng</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!--================Category Product Area =================-->
+<section class="cat_product_area section_gap">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-lg-9">
+              
+
+                <div class="latest_product_inner">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-6">
+                <div class="single-product">
+                    <div class="product-img">
+                        <img class="card-img"
+                             src="~/img/product/new-product/@item.image_url"
+                             alt="" />
+                        <div class="p_icon">
+                            <a href="#" class="add-to-cart" data-product-id="@item.id">
+                                <i class="ti-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-btm">
+                        <a href="#" class="d-block">
+                            <h4>@item.name</h4>
+                        </a>
+                        <div class="mt-3">
+                            <span class="mr-4">@item.price VNĐ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+            </div>
+
+            <div class="col-lg-3">
+            @await Component.InvokeAsync("CategoryFilter")
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+      
+    $(document).on('click', '.add-to-cart', function (e) {
+        e.preventDefault(); // Ngăn chặn hành động mặc định (nếu là <a>)
+
+        var productId = $(this).data('product-id'); // Lấy ProductID từ thuộc tính data
+        var quantity = 1; // Mặc định số lượng là 1 (có thể tuỳ chỉnh)
+
+        $.ajax({
+            type: 'POST',
+            url: '/Cart/AddToCart', // API thêm sản phẩm
+            data: { productId: productId, quantity: quantity }, // Gửi ProductID và Quantity
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message); // Hiển thị thông báo thành công
+                    updateCartCount();
+                } else {
+                    alert('Thêm sản phẩm thất bại!');
+                }
+            },
+            error: function () {
+                alert('Đã xảy ra lỗi kết nối!');
+            }
+        });
+    });
+
+
+</script>
+

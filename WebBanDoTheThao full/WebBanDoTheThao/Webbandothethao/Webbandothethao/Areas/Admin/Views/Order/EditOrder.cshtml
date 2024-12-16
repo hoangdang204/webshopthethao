@@ -1,0 +1,100 @@
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model EditOrderViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="container-xxl flex-grow-1 container-p-y">
+    <div class="card">
+        <h2 class="card-header text-center text-primary">Chỉnh sửa đơn hàng</h2>
+        <div class="card-body">
+            <form asp-action="EditOrder" asp-controller="Order" method="post" id="orderForm">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="Status" class="control-label">Trạng thái</label>
+                    <select asp-for="Status" class="form-control">
+                        <option value="Đang xử lí" >Đang xử lí</option>
+                        <option value="Đã hủy" >Đã hủy</option>
+                        <option value="Đã giao">Đã giao</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="OrderDetails" class="control-label">Chi tiết sản phẩm</label>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Giá</th>
+                                <th>Tổng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var detail in Model.OrderDetails ?? new List<EditOrderDetailViewModel>())
+                            {
+                                <tr data-id="@detail.OrderDetailId">
+                                    <td>@detail.ProductId</td>
+                                    <td>
+                                        <div class="input-group">
+                                            <button type="button" class="btn btn-outline-secondary decrement">-</button>
+                                            <input type="number" asp-for="@detail.Quantity" name="OrderDetails[@detail.OrderDetailId].Quantity" class="form-control quantity" value="@detail.Quantity" min="1" />
+                                            <button type="button" class="btn btn-outline-secondary increment">+</button>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <input type="number" asp-for="@detail.Price" name="OrderDetails[@detail.OrderDetailId].Price" class="form-control price" value="@detail.Price" readonly />
+                                    </td>
+                                    <td class="total">@((detail.Quantity * detail.Price))</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <a asp-controller="Order" asp-action="Display" class="btn btn-secondary">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const updateTotals = (row) => {
+            const quantity = parseInt(row.querySelector(".quantity").value) || 0;
+            const price = parseFloat(row.querySelector(".price").value) || 0;
+            const total = (quantity * price).toFixed(2);
+            row.querySelector(".total").innerText = `$${total}`;
+        };
+
+        document.querySelectorAll(".decrement").forEach(button => {
+            button.addEventListener("click", function () {
+                const row = button.closest("tr");
+                const quantityInput = row.querySelector(".quantity");
+                const currentValue = parseInt(quantityInput.value) || 0;
+                if (currentValue > 1) {
+                    quantityInput.value = currentValue - 1;
+                    updateTotals(row);
+                }
+            });
+        });
+
+        document.querySelectorAll(".increment").forEach(button => {
+            button.addEventListener("click", function () {
+                const row = button.closest("tr");
+                const quantityInput = row.querySelector(".quantity");
+                quantityInput.value = (parseInt(quantityInput.value) || 0) + 1;
+                updateTotals(row);
+            });
+        });
+
+        document.querySelectorAll(".quantity").forEach(input => {
+            input.addEventListener("input", function () {
+                const row = input.closest("tr");
+                updateTotals(row);
+            });
+        });
+    });
+</script>

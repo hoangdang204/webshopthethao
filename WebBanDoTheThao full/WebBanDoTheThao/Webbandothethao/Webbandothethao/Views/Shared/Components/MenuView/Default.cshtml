@@ -1,0 +1,128 @@
+﻿@using System.Security.Claims
+@model IList<tblMenu>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<header class="header_area">
+    <div class="top_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <div class="main_menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href="index.html">
+                    <img src="~/img/logo.png" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
+                    <div class="row w-100 mr-0">
+                        <div class="col-lg-7 pr-0">
+                            <ul class="nav navbar-nav center_nav pull-right">
+                                @foreach(var item in Model)
+                                {
+                                  <li class="nav-item @(ViewContext.RouteData.Values["Controller"]?.ToString() == item.ControllerName && ViewContext.RouteData.Values["Action"]?.ToString() == item.ActionName ? "active" : "")">
+    <a class="nav-link" href="/@item.ControllerName/@item.ActionName">@item.MenuName</a>
+</li>
+
+                                }
+                                                         
+                            </ul>
+                        </div>
+                    <div class="col-lg-5 pr-0">
+                <ul class="nav navbar-nav navbar-right right_nav pull-right">
+               
+
+              <li class="nav-item">
+   <a class="nav-link" href="/Cart/Display">
+    <i class="ti-shopping-cart"></i>
+    <span id="cart-count">0</span> <!-- Giá trị mặc định là 0 -->
+</a>
+
+</li>
+
+
+
+                  </li>
+                   @if (User.Identity.IsAuthenticated)
+                    {
+						@if(User.FindFirst(ClaimTypes.Name) != null){
+							var name = User.FindFirst(ClaimTypes.Name)?.Value;
+                            <li class="nav-item submenu dropdown">
+                             <a href="#" class="nav-link dropdown-toggle" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="ti-user"></i> @name
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Logout", "Account")">Đăng Xuất</a>
+                                </li >
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Infomation", "Home")">Thông tin tài khoản</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("UserOrders", "Order")">Xem đơn hàng</a>
+                                </li>
+                            </ul>
+                        </li>
+						}
+                    }
+                    else
+                    {
+                        <li>
+                            <a class="icons" href="@Url.Action("Login", "Account")"  class="ti-user" > Đăng nhập</a>
+                        </li>
+                    }
+                  </li>
+                </ul>
+              </div>
+                      
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+function updateCartCount() {
+    const getCartCountUrl = '@Url.Action("GetCartCount", "Cart")';
+
+    $.ajax({
+        type: 'GET',
+        url: getCartCountUrl,
+        success: function (count) {
+            console.log('API trả về:', count); // Kiểm tra dữ liệu
+            if (count !== null && !isNaN(count)) {
+                $('#cart-count').text(count);
+                console.log('Số lượng được hiển thị:', count);
+            } else {
+                console.error('Dữ liệu không hợp lệ:', count);
+                $('#cart-count').text(0);
+            }
+        },
+        error: function () {
+            console.error('Không thể tải số lượng sản phẩm trong giỏ hàng!');
+            $('#cart-count').text(0);
+        }
+    });
+}
+
+   $(document).ready(function () {
+        updateCartCount();
+    });
+
+</script>
+

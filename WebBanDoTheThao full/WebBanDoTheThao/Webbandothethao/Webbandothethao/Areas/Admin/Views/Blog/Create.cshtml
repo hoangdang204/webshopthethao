@@ -1,0 +1,148 @@
+﻿
+@model Webbandothethao.Models.tblBlog
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!-- Content Header (Page header) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <div class="content-wrapper">
+
+        <!-- Default box -->
+        <div class="card">
+            <div class="card-body">
+                <form method="post" asp-action="Create" asp-controller="Blog">
+                    <div asp-validation-summary="All"></div>
+                    <div class="form-group col md-6">
+                        <label asp-for="articletitle">Tiêu đề</label>
+                        <input type="text" class="form-control mb-3" asp-for="articletitle" placeholder="nhập tiêu đề" />
+                        <span asp-validation-for="articletitle" class="alert-danger"></span>
+
+                    </div>
+                    <div class="form-group col md-6">
+                        <label asp-for="description">Mô tả</label>
+                        <input type="text" class="form-control mb-3" asp-for="description" placeholder="nhập mô tả" />
+                        <span asp-validation-for="description" class="alert-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="img" class="form-label">Ảnh</label>
+                        <input class="form-control" type="file" asp-for="img" id="formFileMultiple" multiple="">
+                        <span asp-validation-for="img" class="alert-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="content">Nội dung</label>
+                        <textarea asp-for="content" id="editor" class="form-control"></textarea>
+                        <span asp-validation-for="content" class="alert-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6 mt-3 mb-3">
+                        <label>
+                            @Html.CheckBox("IsActive", false)
+                            Hiển thị
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i> Lưu</button>
+                    <a asp-controller="Blog" asp-action="Display" class="btn btn-lg btn-warning p-2">Quay lại</a>
+                </form>
+            </div>
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.content -->
+    </div>
+    <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+    <script>
+        class MyUploadAdapter {
+            constructor(loader) {
+                this.loader = loader;
+                const uploadUrl = '/Admin/Blog/UploadImage'; // Đảm bảo rằng đường dẫn này đúng
+
+            }
+
+            // Bắt đầu quá trình tải lên
+            upload() {
+                return this.loader.file
+                    .then(file => new Promise((resolve, reject) => {
+                        this._initRequest();
+                        this._initListeners(resolve, reject, file);
+                        this._sendRequest(file);
+                    }));
+            }
+
+            abort() {
+                if (this.xhr) {
+                    this.xhr.abort();
+                }
+            }
+
+            _initRequest() {
+                const xhr = this.xhr = new XMLHttpRequest();
+                const uploadUrl = '/Admin/Blog/UploadImage';
+
+                xhr.open('POST', uploadUrl, true);
+                xhr.responseType = 'json';
+            }
+
+            _initListeners(resolve, reject, file) {
+                const xhr = this.xhr;
+                const loader = this.loader;
+                const genericErrorText = `Không thể tải tệp: ${file.name}.`
+
+                xhr.addEventListener('error', () => reject(genericErrorText));
+                xhr.addEventListener('abort', () => reject());
+                xhr.addEventListener('load', () => {
+                    const response = xhr.response;
+
+                    if (!response || response.error) {
+                        return reject(response && response.error ? response.error.message : genericErrorText);
+                    }
+
+                    resolve({
+                        default: response.url
+                    });
+                });
+
+                if (xhr.upload) {
+                    xhr.upload.addEventListener('progress', evt => {
+                        if (evt.lengthComputable) {
+                            loader.uploadTotal = evt.total;
+                            loader.uploaded = evt.loaded;
+                        }
+                    });
+                }
+            }
+
+            _sendRequest(file) {
+                const data = new FormData();
+                data.append('upload', file);
+                this.xhr.send(data);
+            }
+        }
+
+        function MyCustomUploadAdapterPlugin(editor) {
+            editor.plugins.get('FileRepository').createUploadAdapter = (loader) => {
+                return new MyUploadAdapter(loader);
+            };
+        }
+
+        ClassicEditor
+            .create(document.querySelector('#editor'), {
+                extraPlugins: [MyCustomUploadAdapterPlugin]
+            })
+            .then(editor => {
+                window.editor = editor;
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+
+</body>
+</html>

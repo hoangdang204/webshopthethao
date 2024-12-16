@@ -1,0 +1,142 @@
+﻿@model List<tblCartItem>
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tên sản phẩm</th>
+                             <th scope="col">Ảnh</th>
+                            <th scope="col">Giá</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Tổng Giá</th>
+                            <th scope="col">Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                   <td>
+                                        <div class="media-body">
+                                            <p>@item.Product.name</p>
+                                        </div>
+                                </td>
+                                <td>
+                                    
+                                        <div class="d-flex">
+                                            <img src="~/img/product/new-product/@item.Product.image_url" style="width:60px" alt="">
+                                        </div>
+
+                                </td>
+                             
+                                   
+                                <td>
+                                    <h5>@item.Product.price</h5>
+                                </td>
+                                <td>
+                                    <div class="product_count">
+                                        <input type="number" name="qty" id="qty-@item.Product.id" value="@item.quantity" 
+                                               onchange="updateQuantity(@item.Product.id)">
+                                       <button onclick="increaseQuantity(@item.Product.id)" class="increase items-count" type="button">
+                                            <i class="lnr lnr-chevron-up"></i>
+                                        </button>
+                                        <button onclick="decreaseQuantity(@item.Product.id)" class="reduced items-count" type="button">
+                                            <i class="lnr lnr-chevron-down"></i>
+                                        </button>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <h5>@(item.quantity * item.Product.price)</h5>
+                                </td>
+                               <td>
+                                <button onclick="removeCartItem(@item.Product.id)" class="btn btn-danger">
+                                    Xóa
+                                </button>
+                            </td>
+                            </tr>
+                        }
+                            <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><h4>Tổng tiền</h4></td>
+                            <td>
+                                <h4>$@Model.Sum(item => item.quantity * item.Product.price)</h4>
+                            </td>
+                        </tr>
+                    </tbody>
+
+
+                 
+                </table>
+                <div class="cart_footer" style="float: right; margin-right: 100px;">
+                    <a href="/Cart/Checkout" class="btn btn-success">Thanh Toán</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@section scripts {
+    <script>
+        // Định nghĩa hàm updateCartItem ở đây
+        function updateCartItem(productId, quantity) {
+            $.ajax({
+                url: '/Cart/UpdateQuantity',
+                type: 'POST',
+                data: { productId, quantity },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        location.reload();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert("Lỗi khi cập nhật số lượng sản phẩm.");
+                }
+            });
+        }
+
+        function increaseQuantity(productId) {
+            var qtyInput = document.getElementById('qty-' + productId);
+            qtyInput.value = parseInt(qtyInput.value) + 1;
+            updateCartItem(productId, parseInt(qtyInput.value));
+        }
+
+        function decreaseQuantity(productId) {
+            var qtyInput = document.getElementById('qty-' + productId);
+            if (parseInt(qtyInput.value) > 1) {
+                qtyInput.value = parseInt(qtyInput.value) - 1;
+                updateCartItem(productId, parseInt(qtyInput.value));
+            }
+        }
+        function removeCartItem(productId) {
+    if (confirm("Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng?")) {
+        $.ajax({
+            url: '/Cart/RemoveFromCart', // URL action để xóa sản phẩm
+            type: 'POST',
+            data: { productId: productId },
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message);
+                    location.reload(); // Tải lại trang để cập nhật giỏ hàng
+                } else {
+                    alert(response.message);
+                }
+            },
+            error: function () {
+                alert("Có lỗi xảy ra khi xóa sản phẩm khỏi giỏ hàng.");
+            }
+        });
+    }
+}
+
+    </script>
+}
+

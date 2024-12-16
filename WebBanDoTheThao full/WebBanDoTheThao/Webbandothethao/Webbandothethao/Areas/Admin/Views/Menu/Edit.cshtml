@@ -1,0 +1,54 @@
+﻿@model Webbandothethao.Models.tblMenu
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!-- Content Header (Page header) -->
+<div class="content-wrapper">
+	<!-- Default box -->
+	<div class="card">
+		<div class="card-body">
+			<form method="post">
+				<div asp-validation-summary="All"></div>
+				<input type="hidden" asp-for="MenuID" />
+				<div class="form-group cod-md-6">
+					<label asp-for="MenuName">MenuName</label>
+					<input type="text" class="form-control mb-3" asp-for="MenuName" placeholder="Nhap ten Menu" />
+					<span asp-validation-for="MenuName" class="alert-danger"></span>
+				</div>
+				<div class="form-group col md-6">
+					<label asp-for="MenuOrder">MenuOrder</label>
+					<input type="text" class="form-control mb-3" asp-for="MenuOrder" placeholder="Enter MenuOrder" />
+					<span asp-validation-for="MenuOrder" class="alert-danger"></span>
+				</div>
+				<div class="form-group col md-6">
+					<label asp-for="ControllerName">ControllerName</label>
+					<input type="text" class="form-control mb-3" asp-for="ControllerName" placeholder="Enter ControllerName" />
+					<span asp-validation-for="ControllerName" class="alert-danger"></span>
+				</div>
+				<div class="form-group col md-6">
+					<label asp-for="ActionName">ActionName</label>
+					<input type="text" class="form-control mb-3" asp-for="ActionName" placeholder="Enter ActionName" />
+					<span asp-validation-for="ActionName" class="alert-danger"></span>
+				</div>
+				<div class="form-group col md-6">
+					<label asp-for="Position">Position</label>
+					<input type="text" class="form-control mb-3" asp-for="Position" placeholder="Enter Position" />
+					<span asp-validation-for="Position" class="alert-danger"></span>
+				</div>
+				<div class="form-group col-md-6 mt-3 mb-3">
+					<label>
+						@Html.CheckBox("IsActive", false)
+						Hiển thị
+					</label>
+				</div>
+
+				<button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i> Lưu</button>
+				<a asp-controller="Menu" asp-action="Display" class="btn btn-lg btn-warning p-2">Quay Lai</a>
+			</form>
+		</div>
+	</div>
+	<!-- /.card -->
+</div>
+<!-- /.content -->
+</div>

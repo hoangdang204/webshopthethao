@@ -1,0 +1,69 @@
+﻿@model Webbandothethao.Models.tblProduct
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!-- Content Header (Page header) -->
+<div class="content-wrapper">
+	<!-- Default box -->
+	<div class="card">
+		<div class="card-body">
+			<form method="post">
+				<div asp-validation-summary="All"></div>
+				<div class="form-group cod-md-6">
+					<label asp-for="name">Tên sản phẩm</label>
+					<input type="text" class="form-control mb-3" asp-for="name" placeholder="Nhap tên sản phẩm" />
+					<span asp-validation-for="name" class="alert-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="categoryid" class="form-label">Danh mục</label>
+					<select asp-for="categoryid" class="form-control">
+						<option value="">-- Chọn danh mục --</option>
+						@foreach (var category in ViewBag.Category)
+						{
+							<option value="@category.Value">@category.Text</option>
+						}
+					</select>
+					<span asp-validation-for="categoryid" class="alert-danger"></span>
+				</div>
+
+
+				<div class="form-group col md-6">
+					<label asp-for="price">Giá</label>
+					<input type="text" class="form-control mb-3" asp-for="price" placeholder="Nhập giá" />
+					<span asp-validation-for="price" class="alert-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="image_url" class="control-label">Hình ảnh</label>
+					<input asp-for="image_url" type="file" class="form-control" />
+					<span asp-validation-for="image_url" class="text-danger"></span>
+				</div>
+				
+				<div class="form-group col md-6">
+					<label asp-for="quantity">Số lượng</label>
+					<input type="number" class="form-control mb-3" asp-for="quantity"  />
+					<span asp-validation-for="quantity" class="alert-danger"></span>
+				</div>
+				<div class="form-group col md-6">
+					<label asp-for="description">mô tả</label>
+					<input type="text" class="form-control mb-3" asp-for="description" placeholder="mô tả" />
+					<span asp-validation-for="description" class="alert-danger"></span>
+				</div>
+			
+
+				<div class="form-group col-md-6 mt-3 mb-3">
+					<label>
+						@Html.CheckBox("IsActive", false)
+						Hiển thị
+					</label>
+				</div>
+
+				<button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i> Lưu</button>
+				<a asp-controller="Category" asp-action="Display" class="btn btn-lg btn-warning p-2">Quay lại</a>
+			</form>
+		</div>
+	</div>
+	<!-- /.card -->
+</div>
+<!-- /.content -->
+</div>

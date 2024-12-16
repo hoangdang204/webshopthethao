@@ -1,0 +1,79 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var addresses = ViewBag.Addresses as List<Webbandothethao.Models.tblAddress>;
+    var paymentMethods = ViewBag.PaymentMethods as List<Webbandothethao.Models.tblPayment>;
+}
+@model Webbandothethao.Models.tblAddress
+<section class="checkout_area section_gap py-5">
+    <div class="container">
+        <div class="billing_details">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="mb-4 text-center">Thông tin Thanh Toán</h3>
+
+                    <div class="card shadow p-4">
+                        <h5 class="mb-4">Tạo địa chỉ mới</h5>
+                       <form class="row g-3" asp-action="Checkout" asp-controller="Cart" method="POST">
+    <!-- Phần nhập địa chỉ mới -->
+    <div class="col-md-12">
+        <label asp-for="FullName" class="form-label">Họ và Tên</label>
+        <input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên" required />
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Phone" class="form-label">Số điện thoại</label>
+        <input asp-for="Phone" class="form-control" placeholder="Số điện thoại" required />
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" placeholder="Email" required />
+    </div>
+    <div class="col-md-12">
+        <label asp-for="Address" class="form-label">Địa chỉ</label>
+        <input asp-for="Address" class="form-control" placeholder="Địa chỉ giao hàng" required />
+    </div>
+    <div class="col-md-12">
+        <label asp-for="City" class="form-label">Thành phố</label>
+        <select asp-for="City" class="form-select" required>
+            <option value="" selected>Chọn thành phố</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="TP.HCM">TP.HCM</option>
+        </select>
+    </div>
+    <div class="col-md-12">
+        <label asp-for="Note" class="form-label">Ghi chú</label>
+        <textarea asp-for="Note" class="form-control" rows="3" placeholder="Ghi chú (nếu có)"></textarea>
+    </div>
+
+    <!-- Phương thức thanh toán -->
+    <div class="col-md-12 mt-4">
+        <h5>Chọn phương thức thanh toán</h5>
+        @if (paymentMethods != null && paymentMethods.Any())
+        {
+            @foreach (var method in paymentMethods)
+            {
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="paymentMethod_@method.id" name="PaymentMethod" value="@method.id" required />
+                    <label class="form-check-label" for="paymentMethod_@method.id">
+                        @method.paymentMethod
+                    </label>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Không có phương thức thanh toán nào khả dụng.</p>
+        }
+    </div>
+
+    <div class="col-12 text-center mt-4">
+        <button type="submit" class="btn btn-primary btn-lg">Thanh toán</button>
+    </div>
+</form>
+
+                    </div>
+                </div>
+                @await Component.InvokeAsync("OrderView");
+            </div>
+        </div>
+    </div>
+</section>

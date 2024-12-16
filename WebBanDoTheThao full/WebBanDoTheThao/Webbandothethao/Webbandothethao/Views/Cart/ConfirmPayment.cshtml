@@ -1,0 +1,15 @@
+@model Webbandothethao.Models.tblOrder
+
+<section class="confirm_payment section_gap py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h3>Thanh toán thành công!</h3>
+                <p>Cảm ơn bạn đã đặt hàng. Chúng tôi sẽ liên hệ sớm nhất để giao hàng.</p>
+                <h5>Mã đơn hàng: @Model.id</h5>
+                <p>Tổng tiền: @Model.totalPrice VNĐ</p>
+                <a href="/" class="btn btn-primary mt-4">Tiếp tục mua sắm</a>
+            </div>
+        </div>
+    </div>
+</section>

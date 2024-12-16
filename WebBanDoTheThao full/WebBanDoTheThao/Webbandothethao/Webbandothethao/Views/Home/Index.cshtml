@@ -1,0 +1,248 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Webbandothethao.Models.tblProduct>
+
+<section class="home_banner_area mb-40">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content row">
+                <div class="col-lg-12">
+                    <p class="sub text-uppercase">Thời trang nam</p>
+                    <h3><span>Cho</span> bạn <br />Thời trang <span>Phong cách</span></h3>
+                    <h4>Đẳng cấp làm nên thương hiệu</h4>
+                    <a class="main_btn mt-40" href="#">Xem bộ sưu tập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+<!-- Start feature Area -->
+<section class="feature-area section_gap_bottom_custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature">
+                    <a href="#" class="title">
+                        <i class="flaticon-money"></i>
+                        <h3>Đảm bảo hoàn tiền</h3>
+                    </a>
+                    <p>Sẽ mở chia một</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature">
+                    <a href="#" class="title">
+                        <i class="flaticon-truck"></i>
+                        <h3>Giao hàng miễn phí</h3>
+                    </a>
+                    <p>Sẽ mở chia một</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature">
+                    <a href="#" class="title">
+                        <i class="flaticon-support"></i>
+                        <h3>Hỗ trợ mọi lúc</h3>
+                    </a>
+                    <p>Sẽ mở chia một</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="single-feature">
+                    <a href="#" class="title">
+                        <i class="flaticon-blockchain"></i>
+                        <h3>Thanh toán an toàn</h3>
+                    </a>
+                    <p>Sẽ mở chia một/p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End feature Area -->
+<!--================ Feature Product Area =================-->
+<section class="feature_product_area section_gap_bottom_custom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="main_title">
+                    <h2><span>Sản phẩm nổi bật</span></h2>
+                    <p>Mang đến hạt giống đầu tiên trong số thứ ba cho chính nó ngay bây giờ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach(var item in Model){
+            <div class="col-lg-4 col-md-6">
+                <div class="single-product">
+                    <div class="product-img">
+                        <img class="img-fluid w-100" src="~/img/product/feature-product/@item.image_url" alt="" />
+                      <div class="p_icon">
+                            <a href="#" class="add-to-cart" data-product-id="@item.id">
+                                <i class="ti-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-btm">
+                        <a href="#" class="d-block">
+                            <h4>@item.name</h4>
+                        </a>
+                        <div class="mt-3">
+                            <span class="mr-4">@item.price VNĐ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
+<!--================ End Feature Product Area =================-->
+<!--================ Offer Area =================-->
+<section class="offer_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="offset-lg-4 col-lg-6 text-center">
+                <div class="offer_content">
+                    <h3 class="text-uppercase mb-40">Tất cả bộ sưu tập nam</h3>
+                    <h2 class="text-uppercase">giảm 10%</h2>
+                    <a href="#" class="main_btn mb-20 mt-5">Khám phá ngay</a>
+                    <p>Ưu đãi trong thời gian giới hạn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--================ End Inspired Product Area =================-->
+<!--================ Start Blog Area =================-->
+<section class="blog-area section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="main_title">
+                    <h2><span>latest blog</span></h2>
+                    <p>Bring called seed first of third give itself now ment</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b1.jpg" alt="">
+                    </div>
+                    <div class="short_details">
+                        <div class="meta-top d-flex">
+                            <a href="#">By Admin</a>
+                            <a href="#"><i class="ti-comments-smiley"></i>2 Comments</a>
+                        </div>
+                        <a class="d-block" href="single-blog.html">
+                            <h4>
+                                Ford clever bed stops your sleeping
+                                partner hogging the whole
+                            </h4>
+                        </a>
+                        <div class="text-wrap">
+                            <p>
+                                Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
+                                Forth.
+                            </p>
+                        </div>
+                        <a href="#" class="blog_btn">Learn More <span class="ml-2 ti-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b2.jpg" alt="">
+                    </div>
+                    <div class="short_details">
+                        <div class="meta-top d-flex">
+                            <a href="#">By Admin</a>
+                            <a href="#"><i class="ti-comments-smiley"></i>2 Comments</a>
+                        </div>
+                        <a class="d-block" href="single-blog.html">
+                            <h4>
+                                Ford clever bed stops your sleeping
+                                partner hogging the whole
+                            </h4>
+                        </a>
+                        <div class="text-wrap">
+                            <p>
+                                Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
+                                Forth.
+                            </p>
+                        </div>
+                        <a href="#" class="blog_btn">Learn More <span class="ml-2 ti-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b3.jpg" alt="">
+                    </div>
+                    <div class="short_details">
+                        <div class="meta-top d-flex">
+                            <a href="#">By Admin</a>
+                            <a href="#"><i class="ti-comments-smiley"></i>2 Comments</a>
+                        </div>
+                        <a class="d-block" href="single-blog.html">
+                            <h4>
+                                Ford clever bed stops your sleeping
+                                partner hogging the whole
+                            </h4>
+                        </a>
+                        <div class="text-wrap">
+                            <p>
+                                Let one fifth i bring fly to divided face for bearing the divide unto seed winged divided light
+                                Forth.
+                            </p>
+                        </div>
+                        <a href="#" class="blog_btn">Learn More <span class="ml-2 ti-arrow-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+      
+    $(document).on('click', '.add-to-cart', function (e) {
+        e.preventDefault(); // Ngăn chặn hành động mặc định (nếu là <a>)
+
+        var productId = $(this).data('product-id'); // Lấy ProductID từ thuộc tính data
+        var quantity = 1; // Mặc định số lượng là 1 (có thể tuỳ chỉnh)
+
+        $.ajax({
+            type: 'POST',
+            url: '/Cart/AddToCart', // API thêm sản phẩm
+            data: { productId: productId, quantity: quantity }, // Gửi ProductID và Quantity
+            success: function (response) {
+                if (response.success) {
+                    alert(response.message); // Hiển thị thông báo thành công
+                    updateCartCount();
+                } else {
+                    alert('Thêm sản phẩm thất bại!');
+                }
+            },
+            error: function () {
+                alert('Đã xảy ra lỗi kết nối!');
+            }
+        });
+    });
+
+
+</script>

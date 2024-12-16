@@ -1,0 +1,35 @@
+@{
+  
+     decimal subtotal = Model.Sum(item => item.quantity * item.price);
+}
+@model List<Webbandothethao.Models.tblCartItem>
+            <div class="col-lg-4">
+              <div class="order_box">
+                <h2>Your Order</h2>
+                <ul class="list">
+                  <li>
+                    <a href="#"
+                      >Product
+                      <span>Total</span>
+                    </a>
+                  </li>
+                  @foreach(var item in Model){
+                  <li>
+                    <a href="#"
+                      >@item.Product.name
+                      <span class="middle">x @item.quantity</span>
+                      <span class="last">@(item.quantity * item.Product.price)</span>
+                    </a>
+                  </li>
+                  }
+                </ul>
+                <ul class="list list_2">
+                  <li>
+                    <a href="#"
+                      >Subtotal
+                      <span>@subtotal</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>

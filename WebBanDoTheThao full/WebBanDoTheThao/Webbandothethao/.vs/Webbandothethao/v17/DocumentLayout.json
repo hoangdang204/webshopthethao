@@ -1,0 +1,935 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\models\\tbladminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\models\\tbladminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\cart\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\cart\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\account\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\shared\\components\\categoryfilter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\shared\\components\\categoryfilter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\blog\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\blog\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\shared\\components\\adminmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\shared\\components\\adminmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\utilities\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\utilities\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\components\\menuviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\components\\menuviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\menu\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\menu\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tbluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\blog\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\blog\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\category\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\category\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\shared\\components\\info\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\shared\\components\\info\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\components\\adminmenucomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\components\\adminmenucomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\components\\infocomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\components\\infocomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblorderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|d:\\webbandothethao full\\webbandothethao\\webbandothethao\\webbandothethao\\models\\tblpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BA7CFC0-169A-4CA5-A0A4-4B0516BBA110}|Webbandothethao\\Webbandothethao.csproj|solutionrelative:webbandothethao\\models\\tblpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET8\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_CartModal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:43:23.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Account\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T10:08:48.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_CartModal.cshtml",
+              "DocumentMoniker": "D:\\.NET8\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_CartModal.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\.NET8\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_CartModal.cshtml",
+              "ToolTip": "D:\\.NET8\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_CartModal.cshtml",
+              "RelativeToolTip": "..\\..\\..\\.NET8\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_CartModal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T02:03:37.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:35:00.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Webbandothethao\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAnwDQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:42:11.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Cart\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Cart\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Cart\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Cart\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T08:01:15.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tblAdminMenu.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Models\\tblAdminMenu.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Models\\tblAdminMenu.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Models\\tblAdminMenu.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Models\\tblAdminMenu.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:20:33.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCwAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:43:40.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\DataContext.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\DataContext.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\DataContext.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\DataContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwBUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:32.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\appsettings.json",
+              "RelativeDocumentMoniker": "Webbandothethao\\appsettings.json",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\appsettings.json",
+              "RelativeToolTip": "Webbandothethao\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T14:25:04.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "tblCart.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCart.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblCart.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCart.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:36:55.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tblCategory.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCategory.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblCategory.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCategory.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblCategory.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:01.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "tblMenu.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblMenu.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblMenu.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblMenu.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblMenu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:05.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tblCartItem.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCartItem.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblCartItem.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblCartItem.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblCartItem.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:17:42.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Webbandothethao\\Controllers\\BlogController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:20:21.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAUwGIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T07:04:01.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T11:33:42.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuViewComponents.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Components\\MenuViewComponents.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Components\\MenuViewComponents.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Components\\MenuViewComponents.cs",
+              "RelativeToolTip": "Webbandothethao\\Components\\MenuViewComponents.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:34:22.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Blog\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Blog\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Blog\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Blog\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T01:38:14.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Utilities\\Functions.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Utilities\\Functions.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Utilities\\Functions.cs",
+              "RelativeToolTip": "Webbandothethao\\Utilities\\Functions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:21:23.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\Components\\CategoryFilter\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Shared\\Components\\CategoryFilter\\Default.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Shared\\Components\\CategoryFilter\\Default.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Shared\\Components\\CategoryFilter\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T19:31:00.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Webbandothethao\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T01:57:28.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BlogDetail.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Blog\\BlogDetail.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Blog\\BlogDetail.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Blog\\BlogDetail.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Blog\\BlogDetail.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T01:13:20.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:28:34.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Webbandothethao\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAwwGIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:46:07.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Account\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T09:44:08.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAqwGUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:39:05.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Display.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAB8AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:42:12.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T07:17:31.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "tblProduct.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblProduct.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblProduct.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblProduct.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblProduct.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:22.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Display.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAmwKgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T06:01:37.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "tblUser.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblUser.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblUser.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblUser.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblUser.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA6wAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:26.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T06:01:15.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T09:28:42.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwCoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:50:49.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Blog\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBJwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T06:47:46.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "tblBlog.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblBlog.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblBlog.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblBlog.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblBlog.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:34:40.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:29:28.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "tblOrder.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblOrder.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblOrder.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblOrder.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:08.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Display.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwCEAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:31:18.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBJwFsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:11:07.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:57:33.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAuwDQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:07:56.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Program.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Program.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Program.cs",
+              "RelativeToolTip": "Webbandothethao\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:41:25.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T04:03:01.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAIBJwH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:07:20.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\Info\\Default.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\Info\\Default.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\Info\\Default.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\Components\\Info\\Default.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAIBJwDgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:34:33.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAKIAAAAAAAAAAIBJwLAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:26:42.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAIBJwEkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:17:58.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AdminMenuComponents.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Components\\AdminMenuComponents.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Components\\AdminMenuComponents.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Components\\AdminMenuComponents.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Components\\AdminMenuComponents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:19:04.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "InfoComponents.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Components\\InfoComponents.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Components\\InfoComponents.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Components\\InfoComponents.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Components\\InfoComponents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwB0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:30:40.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Webbandothethao\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:09:13.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Webbandothethao\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Webbandothethao\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-04T02:08:13.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Webbandothethao\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:54:33.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Categories\\Display.cshtml",
+              "RelativeDocumentMoniker": "Webbandothethao\\Views\\Categories\\Display.cshtml",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Views\\Categories\\Display.cshtml",
+              "RelativeToolTip": "Webbandothethao\\Views\\Categories\\Display.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwEcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T17:25:32.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "tblOrderDetail.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblOrderDetail.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblOrderDetail.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblOrderDetail.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblOrderDetail.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:12.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "tblPayment.cs",
+              "DocumentMoniker": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblPayment.cs",
+              "RelativeDocumentMoniker": "Webbandothethao\\Models\\tblPayment.cs",
+              "ToolTip": "D:\\WebBanDoTheThao full\\WebBanDoTheThao\\Webbandothethao\\Webbandothethao\\Models\\tblPayment.cs",
+              "RelativeToolTip": "Webbandothethao\\Models\\tblPayment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:37:18.462Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+﻿@model Webbandothethao.Models.tblUser
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!-- Content Header (Page header) -->
+<div class="content-wrapper">
+	<!-- Default box -->
+	<div class="card">
+		<div class="card-body">
+			<form method="post">
+				<div asp-validation-summary="All"></div>
+				<div class="form-group cod-md-6">
+					<label asp-for="name">Tên hiển thị</label>
+					<input type="text" class="form-control mb-3" asp-for="name" placeholder="Nhap tên hiển thị" />
+					<span asp-validation-for="name" class="alert-danger"></span>
+				</div>
+				<div class="form-group cod-md-6">
+					<label asp-for="email">Email</label>
+					<input type="text" class="form-control mb-3" asp-for="email" placeholder="Nhập Email" />
+					<span asp-validation-for="email" class="alert-danger"></span>
+				</div>
+				<div class="form-group cod-md-6">
+					<label asp-for="password">Mật khẩu</label>
+					<input type="text" class="form-control mb-3" asp-for="password" placeholder="Nhập mật khẩu" />
+					<span asp-validation-for="password" class="alert-danger"></span>
+				</div>
+				<div class="form-group cod-md-6">
+					<label asp-for="phone">SĐT</label>
+					<input type="text" class="form-control mb-3" asp-for="phone" placeholder="nhập sđt" />
+					<span asp-validation-for="phone" class="alert-danger"></span>
+				</div>
+				<div class="form-group cod-md-6">
+					<label asp-for="address">Địa chỉ</label>
+					<input type="text" class="form-control mb-3" asp-for="address" placeholder="địa chỉ" />
+					<span asp-validation-for="address" class="alert-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="role" class="form-label">Quyền</label>
+					<select asp-for="role" class="form-control">
+						<option  value="Admin">Admin</option>
+						<option value="User">User</option>
+					</select>
+					<span asp-validation-for="role" class="alert-danger"></span>
+				</div>
+
+
+				<div class="form-group">
+					<label asp-for="img" class="control-label">Hình ảnh</label>
+					<input asp-for="img" type="file" class="form-control" />
+					<span asp-validation-for="img" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input asp-for="created_at" type="hidden" value="@DateTime.Now" class="form-control" />
+
+				</div>
+				<div class="form-group col-md-6 mt-3 mb-3">
+					<label>
+						@Html.CheckBox("Status", false)
+						Hiển thị
+					</label>
+				</div>
+
+				<button type="submit" class="btn btn-lg btn-primary p-2"><i class="bi bi-file-plus-fill"></i> Lưu</button>
+				<a asp-controller="Account" asp-action="Display" class="btn btn-lg btn-warning p-2">Quay lại</a>
+			</form>
+		</div>
+	</div>
+	<!-- /.card -->
+</div>
+<!-- /.content -->
+</div>
